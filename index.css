@@ -1,0 +1,107 @@
+/* <!-- BFBFBF,D5CDC2,404040,A29D9A,DDDDDD --> */
+body {
+    position: relative;
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+#home {
+    background-color: #bfbfbf;
+    height:100vh;
+}
+
+#home h1{
+    font-size: 3.5rem
+}
+
+#home p{
+    font-size: 1.7rem
+}
+
+#intro {
+    background:white;
+    height: 100vh;
+}
+
+img {
+    width: 100%
+}
+
+#project {
+    height: 50vh;
+}
+
+.project-title{
+    height: 40vh;
+    background-image: url("assets/title1.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100%;
+    background-position: left center;
+}
+
+#skills {
+    background-image: url("assets/skill.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100%;
+    color: white;
+    height:100vh;
+}
+
+.dev-item {
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    line-height: 7;
+    font-size: 14px;
+}
+
+.scrolled {
+    background: -webkit-linear-gradient(270deg, hsla(22, 4%, 63%, 1) 13%, hsla(0, 0%, 100%, 0) 98%);
+    transition: background 500ms;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+   text-shadow: 1px 1px 2px grey;
+    font-size: 2.0 rem;
+}
+
+@media (max-width: 1200px) {
+  #skills {
+      background-color: #404040;
+      background-image: none;
+      height: 115vh;
+  }  
+}
+
+@media (max-width: 800px){
+.project-title {
+    height: 15vh
+}}
+
+.btn {
+    border-radius: 0px;
+    color: black; 
+    border: 2px black solid;
+    margin: 5px 15px;
+    display: inline-block
+}
+
+.arrow {
+    margin-top:150px;
+    display: block;
+    color: black
+}
+.arrow:hover{
+    color: grey
+}
+
+.text-center h1{
+    margin-top: 200px;
+}
+
